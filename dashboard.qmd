@@ -1,0 +1,41 @@
+---
+title: "Trial Layout Questionnaire" 
+subtitle: "A Strategic Tool for Optimising Small-Plot Trial Design, Boosting Statistical Power, and Laying the Foundation for Robust Data Analysis"
+author: "by Rose Megirian"
+format: 
+  dashboard:
+    logo: images/AAGI_logo.png
+    orientation: columns
+---
+
+## Column {width = "35%"}
+
+placeholder text for column 1
+
+```{r, loadLibraries}
+#| echo: false
+#| include: false
+
+library(tidyverse)
+```
+
+```{r, printStarwars}
+
+head(starwars)
+
+```
+
+
+
+## Column {width = "65%"}
+
+### Row {height = "10%"}
+placeholder text for column 2, row 1
+
+### Row {height = "70%"}
+
+placeholder text for column 2, row 2
+
+### Row {height = "20%"}
+
+placeholder text for column 2, row 3
